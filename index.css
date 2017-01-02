@@ -1,0 +1,255 @@
+.table {
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    display: block;
+   
+}
+
+.row {
+    display: block;
+}
+
+.col-1 {
+            width: 8.33333333333%;
+
+        }
+
+        .col-2 {
+            width: 16.6666666667%;
+        }
+        .col-3 {
+            width:25%;
+        }
+        .col-4 {
+            width: 33.3333333333%;
+
+        }
+        .col-5 {
+            width: 41.6666666667%;
+        }
+        .col-6 {
+            width:50%;
+        }
+        .col-7 {
+            width: 58.3333333333%;
+        }
+        .col-8 {
+            width:66.6666666666%;
+        }
+        .col-9 {
+            width:75%;
+        }
+        .col-10 {
+            width: 83.3333333333%;
+        }
+        .col-11 {
+             width:91.6666666666%; 
+        }
+        .col-12 {
+             width: 100%;
+        }
+
+        [class*="col-"] {
+          float:left; 
+        }
+
+        [class*="col-"]:last-of-type {
+        }
+
+        .row:before
+            :after
+        {
+          clear: both;
+          content:"";
+        }
+
+body {
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    min-width: 320px;
+    min-height: 480px;
+    max-width: $22000px;
+    max-height: 1200px; 
+    text-align: center;
+    position: absolute;
+}
+
+#head {
+    margin: 0 auto;
+    height: 10%;
+    max-height: 15%;
+    background-color: #1e1e20;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-size: 300%;
+    font-weight: 200;
+    color: white;
+    position: relative;
+    top: 0;
+    right: 37%;
+}
+
+.head-nav{
+    margin: 0;
+    padding: 0;
+    width: 80%;
+    max-height: 100%;
+    position: relative;
+    top: 0;
+    left: 15%;
+}
+
+.head-nav a {
+    font-family: sans-serif;
+    font-weight: 100;
+    font-size: 150%;
+    color: #efb509;
+    text-decoration: none;
+    margin-left: 12%;
+}
+
+#top-img {
+    margin: 0 auto;
+    padding: 0;
+    margin-top: 5%;
+    height: 700px;
+    max-height: 700px;
+    overflow: hidden;
+    background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url('../img/big_house.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+#top-img p {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-size: 500%;
+    color: white;
+    position: relative;
+    left: 0%;
+    top: 35%;
+}
+
+#about {
+    margin: 0;
+    padding: 0;
+    height: 600px;
+    max-height: 600px;
+    text-align: justify;
+    text-align-last: center;
+    position: relative;
+    background-color: lightgrey;
+    left: 17%;
+    top: 15%;   
+   
+}
+
+#about-pic   {
+    margin: 0;
+    padding: 0;
+    
+     position: relative;
+    top: 23%;
+    left: 5%;
+    
+}
+
+.team {
+    margin: 0;
+    width: 100%;
+   
+}
+
+#about-txt {
+    margin: 0;
+    padding: 0;
+    text-align: cenrter;
+}
+
+ #about-txt h2 {
+    font-family: sans-serif;
+    font-size: 250%;
+    font-weight: 200;
+    color: black;
+    
+}
+
+#about-txt p {
+    font-family: sans-serif;
+    font-weight: 200;
+    font-size: 90;
+    color: black;
+    line-height: 1.5;
+    position: relative;
+    left: 20%;
+    width: 60%;
+  
+}
+
+#properties  {
+    margin: 0;
+    padding: 0;
+    margin-top: 5%;
+    position: relative;
+    left: 12%;
+}
+
+.box1, .box2, .box3 {
+    margin: 0;
+    width: 33.3333333333%;
+    display: inline;    
+    padding: 2%;
+}
+
+.contact {
+    margin: 0;
+    padding: 0;
+}
+
+.info {
+    margin: 0;
+    padding: 0;
+    background-color: #011a27;
+    height: 15%;
+    max-height: 15%;
+}
+.info h2 {
+     font-family: sans-serif;
+    font-size: 250%;
+    font-weight: 200;
+    color: white;
+}
+
+.info p {
+    font-family: sans-serif;
+    font-weight: 200;
+    font-size: 90;
+    color: white;
+    line-height: 1.5;
+    
+}
