@@ -140,7 +140,7 @@ h1 {
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
     ),
-    url('../img/big_house.png');
+    url('img/big_house.png');
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
