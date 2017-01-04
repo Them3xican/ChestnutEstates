@@ -227,7 +227,7 @@ h1 {
     max-height: 1500px;
     padding-top: 5%;
     position: relative;
-   background-color: #011a27;
+   background-color: #8797af;
 }
 
 #properties h2 {
@@ -255,21 +255,21 @@ h1 {
 .house-img {
     margin: 0;
     padding: 0;
-    width: 90%;
+    width: 40%;
     
 }
 
 .contact {
     margin: 0;
     padding: 0;
-    background-color: #f1e9da;
+     background-color: #f1e9da;
+    
    
 }
 
 .info {
     margin: 0;
     padding: 0;
-    background-color: #011a27;
     height: 15%;
     max-height: 15%;
 }
@@ -277,7 +277,7 @@ h1 {
      font-family: sans-serif;
     font-size: 250%;
     font-weight: 200;
-    color: white;
+     color: #f3b61f;    
 }
 
 .info p {
