@@ -136,9 +136,10 @@ h1 {
     height: 700px;
     max-height: 700px;
     overflow: hidden;
-    background-image: url('img/big_house.png');
+    background-image: url('img/big_house-use.png');
     background-repeat: no-repeat;
     background-position: center;
+    background-size: cover;
     background-attachment: fixed;
     
 }
@@ -171,7 +172,7 @@ h1 {
     text-align: justify;
     text-align-last: center;
     position: relative;
-    background-color: #f1e9da;
+    background-color: #fff;
     padding-bottom: 5%;
    
    
@@ -227,7 +228,8 @@ h1 {
     max-height: 1500px;
     padding-top: 5%;
     position: relative;
-   background-color: #8797af;
+      background-color: #f1e9da;
+   
 }
 
 #properties h2 {
@@ -259,10 +261,11 @@ h1 {
     
 }
 
-.contact {
+#contact {
     margin: 0;
     padding: 0;
-     background-color: #f1e9da;
+    background-color: #011a27;
+   
     
    
 }
@@ -283,8 +286,11 @@ h1 {
 .info p {
     font-family: sans-serif;
     font-weight: 200;
-    font-size: 90;
+    font-size: 150%;
     color: white;
     line-height: 1.5;
+    text-align: left;
+    position: relative;
+    left: 5%;
     
 }
