@@ -162,6 +162,7 @@ h1 {
 	padding:0;
     width: 250px;
     text-align: center;
+    background-color: #011a27;
 }
 
 
@@ -213,8 +214,8 @@ h1 {
 #top-img {
     margin: 0 auto;
     padding: 0;
-    height: 800px;
-    max-height: 800px;
+    height: 900px;
+    max-height: 900px;
     overflow: hidden;
     background-image: url('img/big_house-use.png');
     background-repeat: no-repeat;
@@ -337,7 +338,7 @@ h1 {
 .house-img {
     margin: 0;
     padding: 0;
-    width: 40%;
+    width: 50%;
     
 }
 
