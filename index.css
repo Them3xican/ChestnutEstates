@@ -115,13 +115,13 @@ h1 {
     max-height: 100%;
     position: relative;
     top: 0;
-    left: 15%;
+    left: 50%;
     
 }
 .head-nav ul {
 	list-style:none;
 	position:relative;
-    left: 15%;
+    left:0%;
 	margin:0;
 	padding:0;
 }
@@ -143,7 +143,7 @@ h1 {
     text-align: center;
     float: left;
 	margin:0;
-    width: 400px;
+    width: 250px;
 	padding:0;
 }
 
@@ -163,7 +163,7 @@ h1 {
 .head-nav ul ul li
 {
 	float:none;
-	width:400px;
+	width:250px;
 }
 
 .head-nav ul ul a
