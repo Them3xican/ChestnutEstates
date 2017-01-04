@@ -221,14 +221,22 @@ h1 {
     padding: 0;
     margin-top: 10%;
     position: relative;
-    left: 8%;
+    left: 5%;
+    width: green;
 }
 
 .box1, .box2, .box3 {
     margin: 0;
-    width: 25%;
     display: inline;    
     padding: 2%;
+    background-color: red;
+}
+
+.house-img {
+    margin: 0;
+    padding: 0;
+    width: 90%;
+    
 }
 
 .contact {
