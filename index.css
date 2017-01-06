@@ -254,7 +254,7 @@ h1 {
     max-height: 500px;
     background-color: #f1e9da;
     text-align: center;
-    z-index: 2;
+   
     
 }
 
@@ -284,42 +284,31 @@ h1 {
 
 }
 
-
-#about {
-    margin: 0;
-    padding: 0;
-    height: 600px;
-    max-height: 600px;
-    text-align: justify;
-    text-align-last: center;
-    position: relative;
-    background-color: #fff;
-   
-   
-}
-
 #about-pic   {
     margin: 0;
     padding: 0;
-    
-     position: relative;
-    top: 25%;
-    left: 5%;
+    height: 700px;
+     
     
 }
 
-.team {
+.flats {
     margin: 0;
     width: 100%;
+    position: relative;
+    left: 45%;
+    top: 15%;
    
 }
 
 #about-txt {
     margin: 0;
     padding: 0;
-    text-align: cenrter;
+    height: 700px;
+    text-align: center;
     position: relative;
-    top: 10%;
+    left: 10%;
+        
 }
 
  h2 {
