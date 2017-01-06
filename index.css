@@ -244,6 +244,46 @@ h1 {
     position: fixed;
 }
 
+
+
+#search-bar {
+    margin: 0;
+    padding: 0;
+    height: 150px;
+    max-height: 500px;
+    background-color: #f1e9da;
+    text-align: center;
+    z-index: 2;
+    
+}
+
+#search-input {
+    
+    margin: 0;
+    padding: 0;
+    width: 40%;
+    height: 60px;
+    font-size: 250%;
+    position: relative;
+    top: 25%;
+    text-align: center;
+  
+}
+
+#search-bttn {
+    
+    margin: 0;
+    padding: 0;
+    width: 10%;
+    height: 60px;
+    font-size: 150%;
+    position: relative;
+    top: 22%;
+    
+
+}
+
+
 #about {
     margin: 0;
     padding: 0;
@@ -307,7 +347,7 @@ h1 {
     max-height: 1500px;
     padding-top: 5%;
     position: relative;
-      background-color: #f1e9da;
+    background-color: #f1e9da;
    
 }
 
