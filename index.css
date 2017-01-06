@@ -213,8 +213,8 @@ h1 {
 #top-img {
     margin: 0 auto;
     padding: 0;
-    height: 700px;
-    max-height: 700px;
+    height: 800px;
+    max-height: 800px;
     overflow: hidden;
     background-image: url('img/big_house-use.png');
     background-repeat: no-repeat;
