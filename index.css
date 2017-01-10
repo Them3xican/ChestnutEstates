@@ -442,3 +442,8 @@ h1 {
         min-width: 768px;
       }
     
+    #fade p { 
+      
+        font-size: 300%;
+      
+      }
