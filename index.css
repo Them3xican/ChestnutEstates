@@ -151,7 +151,7 @@ h1 {
 	font-weight:200;
 	font-size:120%;
 	line-height:1.5;
-    margin-left: 25%;
+
 	font-family: 'Poppins', sans-serif;
 }
 
@@ -177,6 +177,7 @@ h1 {
 	top:100%;
 	left:0;
 	padding:0;
+    background-color: white;
 }
 
 .head-nav ul ul li
