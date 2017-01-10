@@ -312,7 +312,7 @@ body {
     height: 500px;
    background-image: url(img/flats.jpg);    
    background-repeat: no-repeat;
-    background-position: center;
+
     background-size: cover;
 }
 
@@ -322,7 +322,7 @@ body {
     height: 500px;
    background-image: url(img/The_Team.jpg);    
     background-repeat: no-repeat;
-    background-position: center;
+    
     background-size: cover;
 }
 
@@ -465,15 +465,15 @@ body {
       }
       
       #about-txt {
-          width: 50%;
-          height: 400px;
+          width: 30%;
+          
           
       
       }
       
       #flats, #team {
-          width: 50%;
-          height: 250px;
+          width: 70%;
+          
        
       }
       
