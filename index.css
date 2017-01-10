@@ -441,6 +441,14 @@ h1 {
         max-width: 1024px;
         min-width: 768px;
       }
+      
+      #top-img { 
+      
+        height: 600px;
+        max-height: 600px;
+      
+      }
+      
     
     #fade p { 
       
