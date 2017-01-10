@@ -441,7 +441,10 @@ h1 {
         max-width: 1024px;
         min-width: 768px;
       }
-      
+      #header {
+          height: 100px;
+          max-height: 100px;
+      }
       #top-img { 
       
         height: 600px;
