@@ -464,7 +464,7 @@ body {
       
       #about-txt, #flats, #team {
           width: 100%;
-          height: 250%;
+          height: 250px;
       }
       
       #about-txt h2 {
