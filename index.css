@@ -465,12 +465,14 @@ body {
       #about-txt {
           width: 100%;
           height: 400px;
+          
       
       }
       
       #flats, #team {
           width: 100%;
           height: 250px;
+          background-size: 100%;
       }
       
       #about-txt h2 {
