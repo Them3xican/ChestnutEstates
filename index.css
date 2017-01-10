@@ -477,12 +477,11 @@ body {
 
         }
 
+      #properties {
+          margin-top: 10%;
+      }
         #properties h2 {
-            font-family: 'Poppins', sans-serif;
-            font-weight: 200;
-            font-size: 190%;
-            color: black;
-            position: relative;
-            left: 0%;
-        }
+            
+            font-size: 150%;
+            }
 
