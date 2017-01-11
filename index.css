@@ -509,10 +509,22 @@ body {
         max-width: 1024px;
         min-width: 768px;
       }
+      #head {
+          width:  25%;
+      }
       
+      
+      .head-nav ul li{
+          width: 100px;
+      }
+      
+      .head-nav ul ul li {
+          width: 100px;
+      }
       
       #fade p {
-          font-size:  200%;
+          font-size:  400%;
+          top: 49%;
       }
       #search-input {
           width: 35%;
