@@ -509,12 +509,10 @@ body {
         max-width: 1024px;
         min-width: 768px;
       }
-      #head h1{
-          display: none;
-      }
+      
       
       #fade p {
-          font-size:  20%;
+          font-size:  200%;
       }
       
       #search-bttn {
@@ -523,5 +521,27 @@ body {
       
       #about-txt{
           top: 1%;
+      }
+      #about-txt h2 {
+        font-size: 120%;
+
+        }
+
+         #about-txt p {
+            font-size: 60%;
+
+        }
+
+        #properties h2 {
+            
+            font-size: 120%;
+            }
+      #details h1 {
+          font-size: 150%;
+      }
+      
+      #links p {
+          
+          font-size:  80%;
       }
 }
