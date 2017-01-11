@@ -513,3 +513,11 @@ body {
       #fade p {
           font-size:  200%;
       }
+      
+      #search-bttn {
+          width: 20%;
+      }
+      
+      #about-txt{
+          top: 1%;
+      }
