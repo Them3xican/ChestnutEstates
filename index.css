@@ -509,7 +509,7 @@ body {
         max-width: 1024px;
         min-width: 768px;
       }
-      #head{
+      #head h1{
           display: none;
       }
       
