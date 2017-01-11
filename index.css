@@ -493,16 +493,16 @@ body {
           
           font-size:  100%;
       }
-
-     /* Tablet Portrait */
       
- @media only screen 
+ /* Tablet Portrait */
+
+@media only screen 
   and (min-device-width: 768px) 
   and (max-device-width: 1024px) 
   and (orientation: portrait) 
   and (-webkit-min-device-pixel-ratio: 1) {
 
-    .container {
+       .container {
         margin: 0 auto;
         padding: 0;
         width: 100%;
