@@ -514,7 +514,9 @@ body {
       #fade p {
           font-size:  200%;
       }
-      
+      #search-input {
+          width: 35%;
+      }
       #search-bttn {
           width: 20%;
       }
