@@ -509,7 +509,10 @@ body {
         max-width: 1024px;
         min-width: 768px;
       }
-
+      #head{
+          display: none;
+      }
+      
       #fade p {
           font-size:  200%;
       }
