@@ -464,6 +464,10 @@ body {
         font-size: 300%;
       }
       
+      #about-txt {
+          top: 1%;
+      }
+      
       #about-txt h2 {
         font-size: 150%;
 
