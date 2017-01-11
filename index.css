@@ -464,21 +464,6 @@ body {
         font-size: 300%;
       }
       
-      #about-txt, #properties {
-          height: 500px;
-          
-      }
-      
-      #about-txt{
-          width: 40%;
-      }
-      
-      #flats, #team {
-          width: 60%;
-          
-       
-      }
-      
       #about-txt h2 {
         font-size: 150%;
 
