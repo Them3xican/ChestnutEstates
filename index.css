@@ -493,7 +493,7 @@ body {
           
           font-size:  100%;
       }
-      
+}
  /* Tablet Portrait */
 
 @media only screen 
@@ -524,3 +524,4 @@ body {
       #about-txt{
           top: 1%;
       }
+}
