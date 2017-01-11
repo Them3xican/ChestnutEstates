@@ -463,6 +463,9 @@ body {
       
         font-size: 300%;
       }
+      #search-bttn {
+          width: 15%;
+      }
       
       #about-txt {
           top: 1%;
