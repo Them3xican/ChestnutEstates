@@ -464,6 +464,9 @@ body {
         font-size: 300%;
       }
       
+      #search-bar {
+          height: 75px;
+      }
       #search-input{
           
           width: 30%;
@@ -569,3 +572,4 @@ body {
           font-size:  80%;
       }
 }
+
