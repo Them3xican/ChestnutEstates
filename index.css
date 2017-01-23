@@ -434,6 +434,40 @@ body {
     left: 5%;
 }
 
+@media only screen 
+  and (max-device-width: 1366px)     
+  and (min-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1)
+    and (orientation: landscape) {  
+
+    .container {
+        margin: 0 auto;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+        max-width: 1366px;
+        min-width: 1024px;
+        text-align: center;    
+    }
+      
+    #top-img {
+        margin: 0 auto;
+        padding: 0;
+        overflow: hidden;
+        height: 600px;
+        max-height: 700px;
+        background-image: url('img/big_house-use.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+        
+    #header {
+        height: 100%;    
+    }
+}
+        
+
 /* Tablet Landscape */
 
 @media only screen 
@@ -580,30 +614,3 @@ body {
       }
 }
 
-@media only screen 
-  and (max-device-width: 1366px)     
-  and (min-device-width: 1024px) 
-  and (-webkit-min-device-pixel-ratio: 2)
-    and (orientation: landscape) {  
-
-    .container {
-        margin: 0 auto;
-        padding: 0;
-        width: 100%;
-        height: 100%;
-        max-width: 1366px;
-        min-width: 1024px;
-        text-align: center;    
-    }
-      
-    #top-img {
-        margin: 0 auto;
-        padding: 0;
-        overflow: hidden;
-         height: 600px;
-        max-height: 700px;
-        background-image: url('img/big_house-use.png');
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-}
