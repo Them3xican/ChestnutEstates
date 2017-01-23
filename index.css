@@ -463,6 +463,10 @@ body {
     #header {
         height: 100px;    
     }
+      
+    #head .logo {
+        margin-top: 8%;
+      }  
 }
         
 
