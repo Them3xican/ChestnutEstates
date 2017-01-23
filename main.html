@@ -2,7 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet"> 
     <link rel="stylesheet" href="main.css">
     <title>Chestnut Estates</title>
 </head>
@@ -11,10 +12,10 @@
        <div class="table">
            <div class="row">
               <div class="col-12" id="header">
-               <div class="col-4" id="head">
-                  <h1>Chestnut Estates</h1>
+               <div class="col-2" id="head">
+                  <img src="img/over-leaf-logo.png" alt="" class="logo">
                </div>
-                   <div class="col-8" id="nav-bar">
+                   <div class="col-10" id="nav-bar">
                        <nav class="head-nav">
                            <ul>
                                <li><a href=""> Landlords</a>
@@ -26,8 +27,7 @@
                                </ul>
                                </li>
                                <li><a href=""> Property Search</a></li>
-                               <li><a href="">Contact Us</a></li>
-                               <li><a href="">About</a></li>
+                               <li><a href="contact.html">Contact Us</a></li>
                            </ul>
                        </nav>
                    </div>
@@ -41,11 +41,17 @@
                </div>
               </div>
               <div class="row">
-                   <div class="col-12" id="about">
-                       <div class="col-4" id="about-pic">
-                           <img src="img/team.jpg" alt="" class="team">
+                  <div class="col-12" id="search-bar">
+	      <input id="search-input"  type="text" name="name" placeholder="Search by location"> 
+	      <input id="search-bttn"  type="submit" name="submit" value="Search"> 
+                  </div>
+              </div>
+              <div class="row">
+                      <div class="col-10" id="about">
+                       <div class="col-5" id="flats">
+                       
                        </div>
-                       <div class="col-8" id="about-txt">
+                       <div class="col-7" id="about-txt">
                            <h2>About</h2>
                        <p>Our business is built on real experience; we started this business with the knowledge that we have gained from managing our own properties. With Chestnut Estates you will get first class service that is personal and tailored to your specific needs,</p>
 
@@ -56,54 +62,77 @@
 <p>So whether you are a would-be landlord wanting to invest in property, a business landlord with an established portfolio, or looking to rent a property while you work or study in the area, Chestnut Estates is your number one choice for a personal and professional service.</p>
                        </div>
                    </div>
-               </div>
+           </div>
+                   <div class="row">
+                       <div class="col-10" id="the-team">
+                           <div class="col-7" id="about-txt">
+                                <h2>team</h2>
+                       <p>Our business is built on real experience; we started this business with the knowledge that we have gained from managing our own properties. With Chestnut Estates you will get first class service that is personal and tailored to your specific needs,</p>
+
+<p>We are a completely independent company, and we pride ourselves on our ability to respond to our clients' requests quickly - and with keen action, not just words. We are continually developing our services to improve the lettings and management experience for our landlord and tenant clients.</p>
+
+<p>We care for your property as though it was our own; we are able to assist you with all renovation & decorating works.</p>
+
+<p>So whether you are a would-be landlord wanting to invest in property, a business landlord with an established portfolio, or looking to rent a property while you work or study in the area, Chestnut Estates is your number one choice for a personal and professional service.</p>
+                           </div>
+                           <div class="col-5" id="team">
+                           </div>
+                       </div>
+                   </div>
                <div class="row">
-                   <div class="col-12" id="properties">
+                   <div class="col-10" id="properties">
                        <h2>Recent Properties</h2>
                        <div class="col-4" id="box1">
                            <img src="img/house2.png" alt="" class="house-img">
                            <p>£150</p>
-                           <p>all details</p>
+                         
                        </div>
                        <div class="col-4" id="box2">
                           <img src="img/house3.png" alt="" class="house-img">
                            <p>£150</p>
-                           <p>destails</p>
+                         
                        </div>
                        <div class="col-4" id="box3">
                           <img src="img/house4.png" alt="" class="house-img">
                           <p>£150</p>
-                          <p>details</p>
                        </div>
-                   </div> 
+                   </div>  
                    <div class="row">
-                       <div class="col-12" id="landlords">
-                           <div class="col-5">
-                               <h2>Landlord Redecoration/Refurbishment:</h2>
-
-<p>At Chestnut Estates we are able to offer complete Redecoration/Refurbishment service for your property.</p>
-
-<p>Do not hesitate to contact us</p>
-                           </div>
-                           <div class="col-5">
-                               <h2>Landlord Finance:</h2>
-
-<p>Having your finances in good shape is key when acquiring investment property, we can recommend a range of local experts who will be able to assist you at every step.</p>
-
-                           </div>
-                       </div>
-                   </div> 
                    <div class="col-12" id="details">
-                       <h1>Contact</h1>
-                       <p><b>Adress;</b></p>
-                       <p><b>Email:</b></p>
-                       <p><b>Phone</b></p>
-                       <p><b>Facebook</b></p>
-                       <p><b>Instagram</b></p>
-                       <p><b>Twitter</b></p>
+                      <div class="col-4" id="links">
+                          <h1>Contact</h1>
+                          <p><b>Address:</b></p>
+                           <p><b>Email:</b></p>
+                           <p><b>Phone</b></p>
+                      </div>
+                      <div class="col-4" id="social">
+                          <h1>Social</h1>
+                          <p><b>Facebook</b></p>
+                           <p><b>Instagram</b></p>
+                           <p><b>Twitter</b></p>
+                      </div>
                    </div>
                </div> 
            </div>
-      </div>   
+      </div>  
+    </div> 
 </body>
 </html>
+
+<!--
+<div class="col-6" id="info">
+                         <div class="col-6" id="landlord-info">
+                             <h2>Landlord Redecoration/Refurbishment</h2>
+
+                             <p>At Chestnut Estates we are able to offer complete Redecoration/Refurbishment service for your property.</p>
+
+                             <p>Do not hesitate to contact us</p>
+
+                         </div>
+                         <div class="col-6" id="landlord-info">
+                             <h2>Landlord Finance:</h2>
+
+                             <p>Having your finances in good shape is key when acquiring investment property, we can recommend a range of local experts who will be able to assist you at every step.</p>
+
+                         </div>
+                     </div>

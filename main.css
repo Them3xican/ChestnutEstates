@@ -77,37 +77,34 @@ body {
     padding: 0;
     width: 100%;
     height: 100%;
-    min-width: 320px;
-    min-height: 480px;
-    max-width: 18000px;
-    max-height: 1200px; 
+    max-width:1366px;
+    min-width: 1024px;
     text-align: center;
+    
 }
 #header {
     margin: 0;
     padding: 0;
     height: 100px;
     max-height: 150px;
-   background-color: #011a27;
     position: fixed;
+    background-color: white;
     z-index: 1;
     
 }
 #head {
     margin: 0 auto;
     height: 100%;
+    background-color: #011a27;
     z-index: 1;
+    text-align: center;
 }
 
-h1 {
+#head .logo {
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
-    font-size: 300%;
-    font-weight: 200;
-    color: white;
-    position: relative;
-    top: 25%;
+    width: 90%;
+    margin-top: 8%;
     
 }
 
@@ -120,11 +117,11 @@ h1 {
 .head-nav{
     margin: 0;
     padding: 0;
-    width: 80%;
+    width:100%;
     max-height: 100%;
     position: relative;
-    top: 25%;
-    
+    top: 35%;
+   
 }
 .head-nav ul {
 	list-style:none;
@@ -145,13 +142,13 @@ h1 {
 .head-nav ul a
 {
 	display:block;
-	  color: #f3b61f;  
+	  color: black;
 	text-decoration:none;
 	font-weight:200;
-	font-size:175%;
+	font-size:120%;
 	line-height:1.5;
-    
-	font-family:"HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif;
+
+	font-family: 'Poppins', sans-serif;
 }
 
 .head-nav ul li
@@ -160,14 +157,14 @@ h1 {
     float: left;
 	margin:0;
 	padding:0;
-    width: 250px;
+    width: 200px;
     text-align: center;
 }
 
 
 .head-nav ul li a:hover
 {
-    color: white;
+    color: darkgrey;
 }
 
 .head-nav ul ul
@@ -176,23 +173,23 @@ h1 {
 	top:100%;
 	left:0;
 	padding:0;
+    background-color: white;
 }
 
 .head-nav ul ul li
 {
 	float:none;
-	width:250px;
+	width:200px;
 }
 
 .head-nav ul ul a
 {
-	line-height:3;
-     color: #f3b61f;  
+     color:black;
 	text-decoration:none;
 	font-weight:200;
-	font-size:150%;
+	font-size:120%;
 	line-height:1.5;
-	font-family:"HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif
+	font-family: 'Poppins', sans-serif;
 }
     
 }
@@ -213,14 +210,14 @@ h1 {
 #top-img {
     margin: 0 auto;
     padding: 0;
-    height: 800px;
+    height: 600px;
     max-height: 800px;
     overflow: hidden;
     background-image: url('img/big_house-use.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    background-attachment: fixed;
+    
     
 }
 #fade {
@@ -231,119 +228,170 @@ h1 {
     linear-gradient(
       rgba(0, 0, 0, 0.5),
        rgba(0, 0, 0, 0.5));
+    text-align: center;
 }
 #fade p {
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
-    font-family: sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 500%;
     color: white;
     position: relative;
-    left: 30%;
-    top: 35%;
-    position: fixed;
+    top: 45%;
 }
 
-#about {
+
+
+#search-bar {
     margin: 0;
     padding: 0;
-    height: 600px;
-    max-height: 600px;
-    text-align: justify;
-    text-align-last: center;
+    height: 100px;
+    max-height: 100px;
+    text-align: center;
     position: relative;
-    background-color: #fff;
-    padding-bottom: 5%;
+    margin-bottom: 3%;
+    background-color: #011a27;
    
-   
+    
 }
 
-#about-pic   {
+#search-input {
+    
     margin: 0;
     padding: 0;
+    width: 25%;
+    height: 50px;
+    font-size: 150%;
+    position: relative;
+    top: 25%;
+    text-align: center;
+  
+}
+
+#search-bttn {
     
-     position: relative;
-    top: 15%;
-    left: 5%;
+    margin: 0;
+    padding: 0;
+    width: 10%;
+    height: 50px;
+    font-size: 150%;
+    position: relative;
+    top: 24%;
+    
+
+}
+
+#about, #properties, #the-team, #info {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    left: 8%;
+    height: 500px;
+}
+
+#the-team {
+    background-color: #011a27;
     
 }
 
-.team {
+#the-team #about-txt h2 {
+    color: white;
+}
+#the-team #about-txt p {
+    color: white;
+}
+
+
+#flats   {
     margin: 0;
-    width: 100%;
-   
+    padding: 0;
+    height: 500px;
+   background-image: url(img/flats.jpg);    
+   background-repeat: no-repeat;
+
+    background-size: cover;
+}
+
+#team  {
+    margin: 0;
+    padding: 0;
+    height: 500px;
+   background-image: url(img/The_Team.jpg);    
+    background-repeat: no-repeat;
+    
+    background-size: cover;
 }
 
 #about-txt {
     margin: 0;
     padding: 0;
-    text-align: cenrter;
+    height: 500px;
+    text-align: center;
     position: relative;
-    top: 10%;
+    right: 5%;
+    
+    
+    text-align: center;
+        
 }
 
- h2 {
-    font-family: sans-serif;
-    font-size: 250%;
-    font-weight: 200;
+#about-txt h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 140%;
+    font-weight: 100;
     color: black;
+    position: relative;
+    left: 10%;
+    
     
 }
 
  #about-txt p {
-    font-family: sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 200;
-    font-size: 120%;
+    font-size: 100%;
     color: black;
-    line-height: 1.5;
+    line-height: 1.3;
     position: relative;
     left: 20%;
-    width: 60%;
+    width:80%;
   
 }
 
-#properties  {
-    margin: 0;
-    padding: 0;
-    max-height: 1500px;
-    padding-top: 5%;
-    position: relative;
-      background-color: #f1e9da;
-   
-}
-
 #properties h2 {
-    font-family: sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 200;
-    font-size: 250%;
+    font-size: 200%;
     color: black;
+    position: relative;
+    left: 0%;
 }
 
 #properties p {
-    font-family: sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 200;
-    font-size: 190%;
+    font-size: 150%;
     color: black;
     
 }
 
 .box1, .box2, .box3 {
     margin: 0;
-    display: inline;    
-    padding: 2%;
+    display: inline; 
     background-color: red;
 }
 
 .house-img {
     margin: 0;
     padding: 0;
-    width: 40%;
+    width: 50%;
     
 }
 
 #details {
     margin: 0;
     padding: 0;
+    margin-top: 2%;
     height: 20%;
      background-color: #011a27;
 }
@@ -351,21 +399,184 @@ h1 {
 #details h1 {
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 200;
     color: white;
-    font-size: 250%;
+    font-size: 180%;
+    width: 20%;
+    position: relative;
+    left: 5%;
+}
+
+#links {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+#social {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    position: relative;
+    left: 10%;
 }
 
 #details p {
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 200;
     color: white;
-    font-size: 150%;
-    line-height: 1.5;
+    font-size: 100%;
+    line-height: 2;
     position: relative;
-    right: 45%;
+    left: 5%;
 }
+
+/* Tablet Landscape */
+
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+    .container {
+        margin: 0 auto;
+        padding: 0;
+        width: 100%;
+        max-width: 1024px;
+        min-width: 768px;
+      }
+      #header {
+          height: 100px;
+          max-height: 100px;
+      }
+      #head h1 {
+          font-size: 150%;
+          top: 15%;
+      }
+      
+      #top-img { 
+      
+        height: 600px;
+        max-height: 600px;
+        margin-top: 3%;
+      
+      }
+      
+    #fade p { 
+      
+        font-size: 300%;
+      }
+      
+      #search-bar {
+          height: 75px;
+      }
+      #search-input{
+          
+          width: 30%;
+          height: 30px;
+          
+      }
+      #search-bttn {
+          width: 15%;
+          height: 30px;
+      }
+      
+      #about-txt {
+          top: 1%;
+      }
+      
+      #about-txt h2 {
+        font-size: 150%;
+
+        }
+
+         #about-txt p {
+            font-size: 80%;
+
+        }
+
+        #properties h2 {
+            
+            font-size: 150%;
+            }
+      #details h1 {
+          font-size: 190%;
+      }
+      
+      #links p {
+          
+          font-size:  100%;
+      }
 }
+ /* Tablet Portrait */
+
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+       .container {
+        margin: 0 auto;
+        padding: 0;
+        width: 100%;
+        max-width: 1024px;
+        min-width: 768px;
+      }
+      #head {
+          width:  25%;
+      }
+      
+      
+      .head-nav ul li{
+          width: 100px;
+      }
+      
+      .head-nav ul ul li {
+          width: 100px;
+      }
+      
+      #fade p {
+          font-size:  300%;
+          top: 49%;
+      }
+      #search-input {
+          width: 35%;
+          height: 30px;
+      }
+      #search-bttn {
+          width: 20%;
+          height: 30px;
+      }
+      
+      #about-txt{
+          top: 1%;
+      }
+      #about-txt h2 {
+        font-size: 120%;
+
+        }
+
+         #about-txt p {
+            font-size: 60%;
+
+        }
+
+        #properties h2 {
+            
+            font-size: 120%;
+            }
+      #details h1 {
+          font-size: 150%;
+      }
+      
+      #links p {
+          
+          font-size:  80%;
+      }
+}
+
