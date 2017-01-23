@@ -584,7 +584,7 @@ body {
   and (max-device-width: 1366px)     
   and (min-device-width: 1024px) 
   and (-webkit-min-device-pixel-ratio: 2)
-    and (orientation: portrait) {  
+    and (orientation: landscape) {  
 
     .container {
         margin: 0 auto;
@@ -595,8 +595,7 @@ body {
         min-width: 1025px;
         text-align: center;    
     }
-        
-        
+      
     #top-img {
         height: 600px;
         max-height: 700px;
