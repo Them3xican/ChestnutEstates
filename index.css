@@ -597,8 +597,13 @@ body {
     }
       
     #top-img {
-        height: 600px;
+        margin: 0 auto;
+        padding: 0;
+        overflow: hidden;
+         height: 600px;
         max-height: 700px;
-    }
-
+        background-image: url('img/big_house-use.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
 }
