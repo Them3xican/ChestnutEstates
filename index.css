@@ -433,10 +433,11 @@ body {
     position: relative;
     left: 5%;
 }
+/* smaller screens */
 
 @media only screen 
   and (max-device-width: 1366px)     
-  and (min-device-width: 1024px)  {  
+  and (min-device-width: 1025px)  {  
 
     .container {
         margin: 0 auto;
@@ -444,7 +445,7 @@ body {
         width: 100%;
         height: 100%;
         max-width: 1366px;
-        min-width: 1024px;
+        min-width: 1025px;
         text-align: center;    
     }
       
@@ -474,7 +475,7 @@ body {
 
 @media only screen 
   and (min-device-width: 768px) 
-  and (max-device-width: 1023px) 
+  and (max-device-width: 1024px) 
   and (orientation: landscape) 
   and (-webkit-min-device-pixel-ratio: 1) {
 
@@ -486,8 +487,8 @@ body {
         min-width: 768px;
       }
       #header {
-          height: 100px;
-          max-height: 100px;
+          height: 80px;
+          max-height: 80px;
       }
       #head h1 {
           font-size: 150%;
