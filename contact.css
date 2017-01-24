@@ -213,7 +213,7 @@ body {
     height: 800px;
     max-height: 800px;
     overflow: hidden;
-    background-image: url('img/house-no1.jpg');
+    background-image: url('img/cool-house.jpeg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -353,7 +353,7 @@ body {
         overflow: hidden;
         height: 600px;
         max-height: 700px;
-        background-image: url('img/house-no1.jpg');
+        background-image: url('img/cool-house.jpeg');
         background-repeat: no-repeat;
         background-position: center;
         background-size:cover;
