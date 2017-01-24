@@ -375,6 +375,14 @@ body {
     
 }
 
+#properties a {
+    text-decoration: none;
+     font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    font-size: 100%;
+    color: black;
+}
+
 .box1, .box2, .box3 {
     margin: 0;
     display: inline; 
