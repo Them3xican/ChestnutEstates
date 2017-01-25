@@ -271,7 +271,7 @@ body {
 }
 
 #images .pics {
-    width: 306px;
+    width: 49%;
     position: relative;
     left: 0;
     right: 0;
@@ -294,16 +294,29 @@ body {
     color: black;
     font-size: 200%;
     position: relative;
-    left: 5%;
+    left: 2%;
 }
+
+#info h2 {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    color: black;
+    font-size: 160%;
+    position: relative;
+    left: 2%;
+    margin-top: 10%;
+}
+
 
 #info p {
     width: 90%;
     position: relative;
-    left: 5%;
+    left: 8%;
     font-family: 'Poppins', sans-serif;
     font-weight: 200;
-    font-size: 90%;
+    font-size: 100%;
     color: black;
     
 }
@@ -329,13 +342,15 @@ body {
     left: 5%;
     font-family: 'Poppins', sans-serif;
     font-weight: 200;
-    font-size: 90%;
+    font-size: 100%;
     color: black;
     
 }
 
-#more-info b {
+b {
     text-decoration: underline;
+    font-size: 120%;
+    
 }
 
 /* smaller screens */
@@ -373,5 +388,16 @@ body {
     #head .logo {
         margin-top: 8%;
       }  
+      
+      #info h1 {
+
+        font-size: 150%;
+      }
+
+#info p {
+    
+    font-size: 90%;
+    
+}
 }
         
