@@ -281,7 +281,7 @@ body {
 
 }
 
-#about, #properties, #the-team, #info {
+#about, #properties, #the-team, #info, #contact {
     margin: 0;
     padding: 0;
     position: relative;
@@ -400,7 +400,6 @@ body {
     margin: 0;
     padding: 0;
     margin-top: 2%;
-    height: 10%;
     text-align: center;
 }
 
