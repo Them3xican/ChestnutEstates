@@ -419,15 +419,14 @@ body {
 #links {
     margin: 0;
     padding: 0;
-    text-align: left;
+    
 }
 
 #social {
     margin: 0;
     padding: 0;
     text-align: left;
-    position: relative;
-    left: 10%;
+    
 }
 
 #details p {
