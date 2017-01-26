@@ -396,45 +396,13 @@ body {
     
 }
 
-#contact {
-    margin: 0;
-    padding: 0;
-    margin-top: 2%;
-    text-align: center;
-}
-
-#contact h1 {
-    margin: 0;
-    padding: 0;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 200;
-    color: white;
-    font-size: 200%;
-    width: 20%;
-    position: relative;
-    left: 5%;
-}
-
-#contact p {
-    margin: 0;
-    padding: 0;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 200;
-    color: white;
-    font-size: 100%;
-    line-height: 2;
-    display: inline;
-    
-}
-
-
 #social {
     margin: 0;
     padding: 0;
     margin-top: 2%;
     height: 10%;
      background-color: #011a27;
-    text-align: left;
+    text-align: center;
 }
 
 #social h1 {
@@ -446,7 +414,7 @@ body {
     font-size: 200%;
     width: 20%;
     position: relative;
-    left: 5%;
+    left: 45%;
 }
 
 #social p {
@@ -456,7 +424,9 @@ body {
     font-weight: 200;
     color: white;
     font-size: 100%;
-    line-height: 2;
+    position: relative;
+    left: 5%;
+    margin-right: 2%;
     display: inline;
     
 }
