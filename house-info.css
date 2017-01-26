@@ -271,7 +271,7 @@ body {
 }
 
 #images .pics {
-    width: 24.5%;
+    width: 20%;
    transition: 0.3s;
     cursor: pointer;
 }
