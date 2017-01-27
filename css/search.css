@@ -273,7 +273,58 @@ input {
     position: relative;
     top: 65%;
     right: 40%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 120%;
+    
 }
+#all-houses {
+    margin: 0;
+    padding: 0;
+    height: 375px;
+    position: relative;
+    left: 5%;
+    
+}
+#all-houses #house {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    
+}
+
+#pic, #info {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+#all-houses #house #pic .profile-pic {
+    width: 100%;
+    
+    
+}
+
+#info p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    font-size: 120%;
+    color: black;
+    margin-top: 15%;
+    
+}
+
+#info a {
+    text-decoration: none;
+     font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    font-size: 100%;
+    color: black;
+}
+
+
+
+
+
 
 @media only screen 
   and (max-device-width: 1366px)     
