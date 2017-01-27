@@ -56,7 +56,14 @@
                      <img src="img/bedroom.jpg" alt="" class="pics" id="myImg3">
                      <img src="img/bathroom.jpg" alt="" class="pics" id="myImg4">
                      
-             <a href="#" onclick="window.open('src="img/bedroom.jpg"', 'newwindow', 'width=300, height=250'); return false;">Click here to open new window</a>
+                     
+                     <a href="javascript:enlarge('largeimage.htm');"><img src="images/image.gif" width="50" height="50" alt="Click to enlarge" /></a>
+                     
+             <script type="text/javascript">
+function enlarge(x)  {
+	window.open(x, 'largeimage','menubar=no,status=no,scrollbars=no,toolbar=no,resizable=no,width=500,height=350');
+}
+</script>
                    </div>
                      <div class="col-6" id="info">
                       <h1>About | Pine Lea</h1>
