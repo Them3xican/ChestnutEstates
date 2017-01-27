@@ -386,6 +386,7 @@ body {
     margin: 0;
     display: inline; 
     background-color: red;
+
 }
 
 .house-img {
@@ -413,7 +414,7 @@ body {
     font-size: 200%;
     width: 20%;
     position: relative;
-    left: 45%;
+    left: 40%;
 }
 
 #social p {
@@ -424,7 +425,7 @@ body {
     color: white;
     font-size: 100%;
     position: relative;
-    left: 5%;
+    left: 1%;
     margin-right: 2%;
     display: inline;
     
