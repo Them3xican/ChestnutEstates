@@ -145,7 +145,7 @@ body {
 	  color: black;
 	text-decoration:none;
 	font-weight:200;
-	font-size:120%;
+	font-size:100%;
 	line-height:1.5;
 
 	font-family: 'Poppins', sans-serif;
@@ -187,7 +187,7 @@ body {
      color:black;
 	text-decoration:none;
 	font-weight:200;
-	font-size:120%;
+	font-size:90%;
 	line-height:1.5;
 	font-family: 'Poppins', sans-serif;
 }
@@ -206,14 +206,13 @@ body {
 }
 
 
-
 #top-img {
     margin: 0 auto;
     padding: 0;
     height: 800px;
     max-height: 800px;
     overflow: hidden;
-    background-image: url('img/big_house-use.png');
+    background-image: url('../img/big_house-use.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -306,7 +305,7 @@ body {
     margin: 0;
     padding: 0;
     height: 500px;
-   background-image: url(img/flats.jpg);    
+   background-image: url('../img/flats.jpg');    
    background-repeat: no-repeat;
 
     background-size: cover;
@@ -316,7 +315,7 @@ body {
     margin: 0;
     padding: 0;
     height: 500px;
-   background-image: url(img/The_Team.jpg);    
+   background-image: url('../img/The_Team.jpg');    
     background-repeat: no-repeat;
     
     background-size: cover;
@@ -447,15 +446,9 @@ body {
     }
       
     #top-img {
-        margin: 0 auto;
-        padding: 0;
-        overflow: hidden;
+      
         height: 600px;
         max-height: 700px;
-        background-image: url('img/big_house-use.png');
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
     }
         
     #header {

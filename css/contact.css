@@ -187,7 +187,7 @@ body {
      color:black;
 	text-decoration:none;
 	font-weight:200;
-	font-size:120%;
+	font-size:90%;
 	line-height:1.5;
 	font-family: 'Poppins', sans-serif;
 }
@@ -206,14 +206,13 @@ body {
 }
 
 
-
 #top-img {
     margin: 0 auto;
     padding: 0;
     height: 800px;
     max-height: 800px;
     overflow: hidden;
-    background-image: url('img/cool-house.jpeg');
+    background-image: url('../img/cool-house.jpeg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -281,7 +280,7 @@ body {
 }
 
 #contact-img {
-     background-image: url('img/map.jpg');
+     background-image: url('../img/map.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -316,21 +315,36 @@ body {
 #social {
     margin: 0;
     padding: 0;
-    text-align: left;
-    position: relative;
-    left: 10%;
+    margin-top: 2%;
+    height: 10%;
+     background-color: #011a27;
+    text-align: center;
 }
 
-#details p {
+#social h1 {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    color: white;
+    font-size: 200%;
+    width: 20%;
+    position: relative;
+    left: 45%;
+}
+
+#social p {
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
     font-weight: 200;
     color: white;
     font-size: 100%;
-    line-height: 2;
     position: relative;
     left: 5%;
+    margin-right: 2%;
+    display: inline;
+    
 }
 
 @media only screen 
@@ -348,15 +362,9 @@ body {
     }
       
     #top-img {
-        margin: 0 auto;
-        padding: 0;
-        overflow: hidden;
+        
         height: 600px;
         max-height: 700px;
-        background-image: url('img/cool-house.jpeg');
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size:cover;
         
     }
         

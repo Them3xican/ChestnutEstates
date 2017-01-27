@@ -206,14 +206,13 @@ body {
 }
 
 
-
 #top-img {
     margin: 0 auto;
     padding: 0;
     height: 800px;
     max-height: 800px;
     overflow: hidden;
-    background-image: url('img/house-no1.jpg');
+    background-image: url('../img/house-no1.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -438,15 +437,8 @@ b {
     }
       
     #top-img {
-        margin: 0 auto;
-        padding: 0;
-        overflow: hidden;
         height: 600px;
         max-height: 700px;
-        background-image: url('img/house-no1.jpg');
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
     }
         
     #header {
