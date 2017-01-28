@@ -341,19 +341,39 @@ input {
         text-align: center;    
     }
       
+      #header {
+        height: 90px;    
+    }
+      
+    #head .logo {
+        margin-top: 8%;
+      } 
+      
     #top-img {
         
         height: 600px;
         max-height: 700px;
         
     }
-        
-    #header {
-        height: 90px;    
+    
+    #search{
+    
+    height: 150px;
+    max-height: 200px;
+    
     }
-      
-    #head .logo {
-        margin-top: 8%;
-      }  
+
+    select {
+        
+        height: 25px;
+        
+    }
+
+    input {
+        
+        height: 18px;
+ 
+    }  
+     
 }
         
