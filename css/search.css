@@ -455,6 +455,14 @@ input {
           height: 80px;
       }
       
+      select {
+          font-size: 100%;
+      }
+      
+      input {
+          font-size: 100%;
+      }
+      
        #all-houses {
           margin-top: 1%;
           height: 250px;
