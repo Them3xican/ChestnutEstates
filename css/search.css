@@ -442,11 +442,24 @@ input {
         text-align: center;    
     }
       
+     #top-img {
+        height: 500px;
+        max-height: 600px;
+    }
+      
+      #fade p {
+          font-size: 300%;
+      } 
+      
+      #header {
+          height: 80px;
+      }
+      
       #info p {
           font-size:  150%;
       }
       
       #info a {
-          font-size: 130px;
+          font-size: 130%;
       }
 }
