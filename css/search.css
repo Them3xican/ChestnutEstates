@@ -457,11 +457,12 @@ input {
       
        #all-houses {
           margin-top: 1%;
-          height: 400px;
+          height: 250px;
       }
       
       #info p {
           font-size:  130%;
+          margin-top: 5%;
       }
       
       #info a {
