@@ -447,10 +447,13 @@ body {
     }
       
     #top-img {
-      
         height: 600px;
         max-height: 700px;
     }
+      
+      #fade p {
+          font-size: 400%;
+      }
         
     #header {
         height: 90px;    
