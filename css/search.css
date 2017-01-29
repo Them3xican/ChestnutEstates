@@ -418,3 +418,7 @@ input {
       input {
           font-size: 100%;
       }
+      
+      #all-houses {
+          margin-top: 1%;
+      }
