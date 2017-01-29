@@ -442,6 +442,10 @@ input {
         text-align: center;    
     }
       
+      #head .logo {
+          margin-top: 15%;
+      }
+      
      #top-img {
         height: 500px;
         max-height: 600px;
