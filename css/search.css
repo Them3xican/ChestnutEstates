@@ -410,3 +410,11 @@ input {
       #header {
           height: 80px;
       }
+      
+      select {
+          font-size: 100%;
+      }
+      
+      input {
+          font-size: 100%;
+      }
