@@ -276,6 +276,7 @@ body {
     font-size: 150%;
     position: relative;
     top: 25%;
+    cursor:pointer;
     
 
 }
@@ -462,6 +463,15 @@ body {
     #head .logo {
         margin-top: 8%;
       }  
+      
+      #search-input {
+          height: 50px;
+      }
+      
+      #search-bttn {
+          height: 56%;
+          top: 24%;
+      }
 }
         
 
