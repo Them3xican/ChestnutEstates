@@ -239,18 +239,15 @@ body {
     top: 45%;
 }
 
-#contact-info {
-    height: 350px;
+#contact{
+    height: auto;
     position: relative;
     left: 9%;
     margin-top: 5%;
+    background-color: #011a27
 }
 
-#contact-txt {
-    height: 100%;
-}
-
-#contact-txt h1 {
+#contact h1 {
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
@@ -258,13 +255,14 @@ body {
     color: #011a27;
     font-size: 250%;
     width: 80%;
+    color: white;
     position:relative;
-    left: 10%;
-    top: 5%;
+    right: 20%;
+    margin-top: 7%;
     
 }
 
-#contact-txt  p {
+#contact p {
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
@@ -273,79 +271,20 @@ body {
     font-size: 150%;
     line-height: 2;
     width: 80%;
-    position: relative;
-    left: 10%;
-    top: 10%;
-
-}
-
-#contact-img {
-     background-image: url('../img/map.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    height: 100%;
-}
-#details {
-    margin: 0;
-    padding: 0;
-    margin-top: 2%;
-    height: 20%;
-     background-color: #011a27;
-}
-
-#details h1 {
-    margin: 0;
-    padding: 0;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 200;
     color: white;
-    font-size: 200%;
-    width: 20%;
     position: relative;
-    left: 5%;
-}
+    left: 15%;
 
-#links {
-    margin: 0;
-    padding: 0;
-    text-align: left;
-}
 
-#social {
-    margin: 0;
-    padding: 0;
-    margin-top: 2%;
-    height: 10%;
-     background-color: #011a27;
-    text-align: center;
 }
-
-#social h1 {
-    margin: 0;
-    padding: 0;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 200;
-    color: white;
-    font-size: 200%;
-    width: 20%;
+ 
+#contact .icon {
+    width: 5%;
     position: relative;
-    left: 45%;
+    right: 15%;
+    margin-top: 5%;
 }
 
-#social p {
-    margin: 0;
-    padding: 0;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 200;
-    color: white;
-    font-size: 100%;
-    position: relative;
-    left: 5%;
-    margin-right: 2%;
-    display: inline;
-    
-}
 
 @media only screen 
   and (max-device-width: 1366px)     
