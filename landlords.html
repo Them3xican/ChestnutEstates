@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
    <link href="https://fonts.googleapis.com/css?family=Poppins:300" rel="stylesheet">
-    <link rel="stylesheet" href="css/contact.css">
+   
+    <link rel="stylesheet" href="css/landlords.css">
+    <title>Chestnut Estates | Landlords</title>
     <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
-  
-    <title>Chestnut Estates | Contact</title>
+    
 </head>
 <body>
    <div class="container">
@@ -20,9 +21,9 @@
                    <div class="col-10" id="nav-bar">
                        <nav class="head-nav">
                            <ul>
-                              <li><a href="index.html">HOME</a></li>
-                               <li><a href="landlords.html"> LANDLORDS</a></li>
+                               <li><a href="index.html"> HOME</a> </li>
                                <li><a href="search.html">SEARCH</a></li>
+                               <li><a href="contact.html">CONTACT</a></li>
                            </ul>
                        </nav>
                    </div>
@@ -32,7 +33,7 @@
                        <img src="img/emailv2.png" alt="" class="icon-pic">
                        <img src="img/phonev2.png" alt="" class="icon-pic">
                        <img src="img/locationv2.png" alt="" class="icon-pic">
-                         <script >
+                       <script >
     $(window).scroll(function() {
 
     if ($(this).scrollTop()>0)
@@ -48,29 +49,25 @@
                    </div>
                </div>
             </div>
-             <div class="row">
+            <div class="row">
                <div class="col-12" id="top-img">
                    <div class="col-12" id="fade">
-                       <p>Chestnut Estates | Contact</p>
+                       <p>Chestnut Esates | Landlords</p>
                    </div>
                </div>
               </div>
               <div class="row">
-                  <div class="col-9" id="contact">
-                      <h1>Contact Details:</h1>
-                      <img src="img/locationv2.png" alt="" class="icon">
-                      <p id="address">Chestnut Avenue</p>
-                      <p>Chandler's Ford</p>
-                      <p>Eastleigh</p>
-                      <p>SO53 3LG</p>
-                      <img src="img/emailv2.png" alt="" class="icon">
-                      <p>Sexytimes@george.com</p>
-                      <img src="img/phonev2.png" alt="" class="icon">
-                      <p>12345678911</p>
+                  <div class="col-12" id="search-bar">
+                      <select id="search-input"  type="text" name="name">
+                                 <option value="nothing">Search Landlords</option>
+                                  <option value="volvo">Billy Bob</option>
+                                  <option value="saab">Dirty Harry</option>
+                                  <option value="opel">Rambo</option>
+                                  </select>
+	      <input id="search-bttn"  type="submit" name="submit" value="Search"> 
                   </div>
               </div>
        </div>
     </div>
-    
-</body>
+    </body>
 </html>
