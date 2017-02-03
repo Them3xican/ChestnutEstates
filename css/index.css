@@ -257,7 +257,7 @@ body {
     margin: 0;
     padding: 0;
     width: 25%;
-    height: 50px;
+    height: 25px;
     font-size: 150%;
     position: relative;
     top: 25%;
@@ -270,13 +270,18 @@ body {
     margin: 0;
     padding: 0;
     width: 10%;
-    height: 54px;
-    font-size: 150%;
+    height: 52px;
+    font-size: 100%;
     position: relative;
     top: 25%;
     cursor:pointer;
-    
+    border-radius: 25px;
 
+}
+
+#search-bttn:hover {
+     background-color: #011a27;
+    color: white;
 }
 
 #about, #properties, #the-team, #info, #contact {
@@ -467,8 +472,8 @@ body {
       }
       
       #search-bttn {
-          height: 56%;
-          top: 24%;
+          height: 38%;
+          top: 20%;
       }
 }
         
