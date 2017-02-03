@@ -205,6 +205,20 @@ body {
 	display:block
 }
 
+#icon {
+    margin: 0;
+    padding: 0;
+    height: 100px;
+    position: relative;
+    left: 70%;
+}
+
+#icon .icon-pic {
+    width: 10%;
+    display:inline;
+    margin-left: 4%;
+}
+
 
 #top-img {
     margin: 0 auto;

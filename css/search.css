@@ -205,6 +205,19 @@ body {
 	display:block
 }
 
+#icon {
+    margin: 0;
+    padding: 0;
+    height: 100px;
+    position: relative;
+    left: 70%;
+}
+
+#icon .icon-pic {
+    width: 10%;
+    display:inline;
+    margin-left: 4%;
+}
 
 
 #top-img {
@@ -271,6 +284,7 @@ input {
     width: 15%;
     height: 35px;
     position: relative;
+    border-radius: 25px;
     top: 65%;
     right: 40%;
     font-family: 'Poppins', sans-serif;

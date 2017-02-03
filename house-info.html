@@ -6,6 +6,20 @@
    <link href="https://fonts.googleapis.com/css?family=Poppins:300" rel="stylesheet">
     <link rel="stylesheet" href="css/house-info.css">
     <title>Chestnut Estates | Pine Lea</title>
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    <script >
+    $(window).scroll(function() {
+
+    if ($(this).scrollTop()>0)
+     {
+        $('#icon').fadeOut();
+     }
+    else
+     {
+      $('#icon').fadeIn();
+     }
+ });
+    </script>
 </head>
 <body>
    <div class="container">
@@ -31,6 +45,13 @@
                                <li><a href="contact.html"> CONTACT</a></li>
                            </ul>
                        </nav>
+                   </div>
+                   <div class="col-4" id="icon">
+                       <img src="img/facebookv2.png" alt="" class="icon-pic">
+                       <img src="img/instagramv2.png" alt="" class="icon-pic">
+                       <img src="img/emailv2.png" alt="" class="icon-pic">
+                       <img src="img/phonev2.png" alt="" class="icon-pic">
+                       <img src="img/locationv2.png" alt="" class="icon-pic">
                    </div>
                </div>
             </div>
