@@ -296,6 +296,10 @@ input {
         text-align: center;    
     }
       
+      .head-nav ul li a {
+          font-size: 100%;
+      }
+      
     #top-img {
         height: 600px;
         max-height: 700px;
@@ -361,6 +365,8 @@ input {
         min-width: 768px;
         text-align: center;    
     }
+      
+      
       
      #top-img {
         height: 500px;

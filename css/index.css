@@ -411,8 +411,7 @@ body {
         max-height: 700px;
     }
       
-      .head-nav ul a
-{
+      .head-nav ul li a {
     font-size: 100%;
 }
       
@@ -433,7 +432,7 @@ body {
       }
       
       #search-bttn {
-          height: 38%;
+          height: 50%;
           top: 20%;
       }
           
