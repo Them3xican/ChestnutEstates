@@ -253,7 +253,8 @@ body {
         text-align: center;    
     }
       .head-nav ul li a {
-          font-size: 100%;
+          font-size: 50%;
+          color: red;
       
       }
       
