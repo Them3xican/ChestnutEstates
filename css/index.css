@@ -461,13 +461,22 @@ body {
         margin: 0 auto;
         padding: 0;
         width: 100%;
+        height: 100%;
         max-width: 1024px;
         min-width: 768px;
+        text-align: center;
       }
       #header {
-          height: 80px;
-          max-height: 80px;
+          height: 20px;
+          color: red;
+          
       }
+      
+      .head-nav {
+        font-size: 100%;
+          color: red;
+      }
+      
       #head h1 {
           font-size: 150%;
           top: 15%;
