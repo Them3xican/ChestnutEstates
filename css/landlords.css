@@ -129,30 +129,7 @@ body {
 	margin:0;
 	padding:0;
 }
-
-.head-nav ul {
-	list-style:none;
-	position:relative;
-    left: 0%;
-	margin:0;
-	padding:0;
-    text-align: center;
-}
-
-.head-nav ul a
-{
-	display:block;
-	  color: black;
-	text-decoration:none;
-	font-weight:200;
-	font-size:100%;
-	line-height:1.5;
-
-	font-family: 'Poppins', sans-serif;
-}
-
-.head-nav ul li
-{
+.head-nav ul li {
 	position:relative;
     float: left;
 	margin:0;
@@ -160,49 +137,14 @@ body {
     width: 200px;
     text-align: center;
 }
-
-
-.head-nav ul li a:hover
-{
-    color: darkgrey;
-}
-
-.head-nav ul ul
-{
-	display:none;
-	top:100%;
-	left:0;
-	padding:0;
-    background-color: white;
-}
-
-.head-nav ul ul li
-{
-	float:none;
-	width:200px;
-}
-
-.head-nav ul ul a
-{
-     color:black;
+.head-nav ul li a {
+	display:block;
+	  color: black;
 	text-decoration:none;
 	font-weight:200;
-	font-size:90%;
+	font-size:120%;
 	line-height:1.5;
 	font-family: 'Poppins', sans-serif;
-}
-    
-}
-
-.head-nav ul ul ul
-{
-	top:0;
-	left:100%
-}
-
-.head-nav ul li:hover > ul
-{
-	display:block
 }
 
 #icon {
@@ -214,7 +156,7 @@ body {
 }
 
 #icon .icon-pic {
-    width: 10%;
+    width: 8%;
     display:inline;
     margin-left: 4%;
 }
@@ -253,19 +195,6 @@ body {
     top: 45%;
 }
 
-#search{
-    margin: 0;
-    padding: 0;
-    height: 200px;
-    max-height: 200px;
-    text-align: center;
-    position: relative;
-    margin-bottom: 0%;
-    background-color: #011a27;
-   
-    
-}
-
 #search-bar {
     margin: 0;
     padding: 0;
@@ -282,7 +211,7 @@ body {
     margin: 0;
     padding: 0;
     width: 25%;
-    height: 25px;
+    height: 50px;
     font-size: 150%;
     position: relative;
     top: 25%;
@@ -295,10 +224,10 @@ body {
     margin: 0;
     padding: 0;
     width: 10%;
-    height: 52px;
+    height: 50px;
     font-size: 100%;
     position: relative;
-    top: 25%;
+    top: 20%;
     cursor:pointer;
     border-radius: 25px;
 
@@ -308,8 +237,6 @@ body {
      background-color: #011a27;
     color: white;
 }
-
-
 
 
 @media only screen 
@@ -330,7 +257,16 @@ body {
         height: 600px;
         max-height: 700px;
     }
-      
+      #icon {
+            
+            position: relative;
+            left: 70%;
+        }
+
+        #icon .icon-pic {
+            width: 10%;
+            
+        }
       #fade p {
           font-size: 400%;
       }
