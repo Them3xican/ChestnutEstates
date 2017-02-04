@@ -214,11 +214,10 @@ body {
 }
 
 #icon .icon-pic {
-    width: 10%;
+    width: 8%;
     display:inline;
     margin-left: 4%;
 }
-
 
 #top-img {
     margin: 0 auto;
@@ -359,7 +358,16 @@ input {
         height: 600px;
         max-height: 700px;
     }
-      
+      #icon {
+            
+            position: relative;
+            left: 70%;
+        }
+
+        #icon .icon-pic {
+            width: 10%;
+            
+        }
       #fade p {
           font-size: 400%;
       }
@@ -424,6 +432,7 @@ input {
       #header {
           height: 80px;
       }
+      
       
       select {
           font-size: 100%;

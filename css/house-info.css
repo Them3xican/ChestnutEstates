@@ -397,7 +397,17 @@ b {
         height: 600px;
         max-height: 700px;
     }
-      
+    
+       #icon {
+            
+            position: relative;
+            left: 70%;
+        }
+
+        #icon .icon-pic {
+            width: 10%;
+            
+        }
       #fade p {
           font-size: 400%;
       }
@@ -409,6 +419,17 @@ b {
     #head .logo {
         margin-top: 8%;
       }  
+      
+      #icon {
+            
+            position: relative;
+            left: 70%;
+        }
+
+        #icon .icon-pic {
+            width: 10%;
+            
+        }
       
       #info h1 {
 

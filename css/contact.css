@@ -318,7 +318,17 @@ body {
         height: 600px;
         max-height: 700px;
     }
-      
+    
+       #icon {
+            
+            position: relative;
+            left: 70%;
+        }
+
+        #icon .icon-pic {
+            width: 10%;
+            
+        }
       #fade p {
           font-size: 400%;
       }
@@ -361,6 +371,16 @@ body {
           height: 80px;
       }
       
+      #icon {
+            
+            position: relative;
+            left: 70%;
+        }
+
+        #icon .icon-pic {
+            width: 10%;
+            
+        }
 }
 
 @media only screen 
