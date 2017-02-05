@@ -475,12 +475,7 @@ body {
         font-size: 100%;
           color: red;
       }
-      
-      #head h1 {
-          font-size: 450%;
-          top: 15%;
-      }
-      
+    
       #top-img { 
       
         height: 300px;
@@ -491,7 +486,7 @@ body {
       
     #fade p { 
       
-        font-size: 100%;
+        font-size: 450%;
         color: red;
       }
       
