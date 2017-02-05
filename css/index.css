@@ -548,12 +548,14 @@ body {
         max-width: 1024px;
         min-width: 768px;
       }
-      #head {
-          width:  25%;
+       #header {
+          height: 70px;
+          
       }
       
-      
-    
+      .head-nav {
+        font-size: 100%;
+      }
       
       #fade p {
           font-size:  300%;
