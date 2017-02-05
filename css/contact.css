@@ -356,6 +356,16 @@ body {
           position: relative;
           left: 15%;
       }
+      
+      #contact h1 {
+          position: relative;
+          right: 15%;
+      }
+      
+      #contact p {
+          position: relative;
+          right: 18%;
+      }
 }
 
 
