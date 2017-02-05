@@ -412,6 +412,10 @@ input {
           width: 15%;
           height: 30px;
       }
+      
+      #all-houses {
+          height: 450px;
+      }
 }
 
 
