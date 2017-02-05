@@ -56,34 +56,47 @@
                </div>
               </div>
               <div class="row">
+     
                   <div class="col-12" id="search">
-                     <select>
-                      <option value="volvo">Select Area</option>
-                      <option value="saab">Scumville</option>
-                      <option value="opel">chav Centre</option>
-                      <option value="audi">Perv city</option>
+                    <form action="php/search.php" method="post">
+                        
+                        <select id="area">
+                      <option value="0"  >Select Area</option>
+                      <option value="scumville">Scumville</option>
+                      <option value="chav">chav Centre</option>
+                      <option value="perv">Perv city</option>
                     </select>
-                     <select>
-                      <option value="volvo">Price Range</option>
-                      <option value="saab">£50,000</option>
-                      <option value="opel">£100,000</option>
-                      <option value="audi">£500,000</option>
+                    
+                     <select id="price">
+                      <option value="0">Price Range</option>
+                      <option value="1">£0-£499</option>
+                      <option value="2">£500-£999</option>
+                      <option value="3">£1000-£1499</option>
+                      <option value="4">Over £1500</option>
                     </select>
-                     <select>
-                      <option value="volvo">Number of Beds</option>
-                      <option value="saab">1</option>
-                      <option value="opel">2</option>
-                      <option value="audi">3</option>
-                      <option value="audi">4+</option>
+                    
+                     <select id="beds">
+                      <option value="0">Number of Beds</option>
+                      <option value="bed1">1</option>
+                      <option value="bed2">2</option>
+                      <option value="bed3">3</option>
+                      <option value="bed4">4+</option>
                     </select>
-                     <select>
-                      <option value="volvo">Property Type</option>
-                      <option value="saab">Flat</option>
-                      <option value="opel">House</option>
-                      <option value="audi">The Nearest Bin</option>
+                    
+                     <select id="property">
+                      <option value="0">Property Type</option>
+                      <option value="flats">Flat</option>
+                      <option value="house">House</option>
+                      <option value="bin">The Nearest Bin</option>
                     </select>
+                    
+                    <input id="search-bttn"  type="submit" name="submit" value="Search"> 
+                    
+                    </form>
+                    
+                    
                      
-                     <input id="search-bttn"  type="submit" name="submit" value="Search"> 
+                     
                       </div>
                   </div>
                   <div class="row">
