@@ -100,6 +100,7 @@
                       </div>
                   </div>
                   <div class="row">
+                  <?php
                   <div class="col-10" id="all-houses">
                       <div class="col-12" id="house">
                           <div class="col-6" id="pic">
@@ -114,6 +115,7 @@
                           </div>
                       </div>
                       </div>
+                                ?>
                       <div class="col-10" id="all-houses">
                       <div class="col-12" id="house">
                           <div class="col-6" id="pic">

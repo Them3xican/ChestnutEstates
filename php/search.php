@@ -23,14 +23,14 @@ function makeJoin($fjoin)
 
 if($property != 0)
  {
-  $sql = $sql . "property like '%". $property . "%'";
+  $sql = $sql . "property = ". $property ;
   $join = 1;
   $check = 1;
  }
 
 if($area != 0) {
      $sql = $sql . makeJoin($join);
-  $sql = $sql . "area like '%". $area . "%'";
+  $sql = $sql . "area ". $area ;
   $join = 1;
   $check = 1;
  }
@@ -71,5 +71,18 @@ if($beds != 0){
  }
 
 echo $sql; 
+
+if($check == 1) 
+ {
+      $_SESSION['search'] = $sql;
+     header("Location: ../search-house.php");
+ }
+else {
+    header("Location: ../search-house.php");
+ }
+
+
+
+
 
 ?>
