@@ -350,11 +350,13 @@ input {
       }
 }
         
+/* Tablet Landscape */
+
 @media only screen 
-  and (max-device-width: 1024px)     
   and (min-device-width: 768px) 
- and (orientation: landscape) 
-  and (-webkit-min-device-pixel-ratio: 1){  
+  and (max-device-width: 1024px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 1) {
 
     .container {
         margin: 0 auto;
@@ -363,39 +365,55 @@ input {
         height: 100%;
         max-width: 1024px;
         min-width: 768px;
-        text-align: center;    
-    }
+        text-align: center;
+      }
+      #header {
+          height: 70px;
+          
+      }
       
+      .head-nav {
+        font-size: 100%;
+      }
+    
+      #icon {
+            
+            position: relative;
+            left: 68%;
+        }
+
+        #icon .icon-pic {
+            width: 12%;
+            
+        } 
+      #top-img { 
       
-      
-     #top-img {
         height: 500px;
         max-height: 600px;
-    }
+        margin-top: 3%;
       
-      #fade p {
-          font-size: 300%;
-      } 
-      
-      #header {
-          height: 80px;
       }
       
+    #fade p { 
       
-      select {
-          font-size: 100%;
+        font-size: 400%
       }
       
-      input {
-          font-size: 100%;
+      #search-bar {
+          height: 75px;
       }
-      
-      #all-houses {
-          margin-top: 1%;
-          height: 400px;
+      #search-input{
+          
+          width: 30%;
+          height: 30px;
+          
       }
-      
+      #search-bttn {
+          width: 15%;
+          height: 30px;
+      }
 }
+
 
 @media only screen 
   and (max-device-width: 1024px)     
