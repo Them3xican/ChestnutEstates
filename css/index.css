@@ -412,7 +412,11 @@ body {
     }
       
       .head-nav ul li a {
-    font-size: 100%;
+          width: 100px;
+      }
+      
+      .head-nav ul li a {
+    font-size: 90%;
 }
       
       #fade p {
