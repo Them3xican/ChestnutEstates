@@ -101,20 +101,34 @@
                   </div>
                   <div class="row">
                   <?php
-                  <div class="col-10" id="all-houses">
-                      <div class="col-12" id="house">
-                          <div class="col-6" id="pic">
-                              <img src="img/house-no1.jpg" alt="" class="profile-pic">
-                          </div>
-                          <div class="col-6" id="info">
-                              <p>Pine Lea <br>
-                            Bishops Waltham</p>
-                            
-                            <p>£290,000</p>
-                            <a href="house-info.html">View</a>
-                          </div>
-                      </div>
-                      </div>
+                      include ("php/connect.php");
+                      session_start ();
+                      
+                      if ($_SESSION [ 'search' != null])
+                      {
+                          mysqli_query($connection, $query) or die('Error querying database.');
+                            $result = mysqli_query($connection, $query);
+                          while ($row = mysqli_fetch_array($result)) {
+                              
+                              echo '<div class="col-10" id="all-houses">
+                                          <div class="col-12" id="house">
+                                              <div class="col-6" id="pic">
+                                                  <img src="img/' . $row['picture_url'] . '" alt="" class="profile-pic">
+                                              </div>
+                                              <div class="col-6" id="info">
+                                                  <p>' . $row['house_name'] . '<br>
+                                                ' . $row['area'] . '</p>
+
+                                                <p>£' . $row['price'] . '</p>
+                                                <a href="house-info.html">View</a>
+                                              </div>
+                                          </div>
+                                          </div>';
+                              
+                          }
+                      }
+                      $sql = 'select * from tblname'; 
+                  
                                 ?>
                       <div class="col-10" id="all-houses">
                       <div class="col-12" id="house">

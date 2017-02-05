@@ -30,7 +30,7 @@ if($property != 0)
 
 if($area != 0) {
      $sql = $sql . makeJoin($join);
-  $sql = $sql . "area ". $area ;
+  $sql = $sql . "area = ". $area ;
   $join = 1;
   $check = 1;
  }
