@@ -196,7 +196,6 @@ body {
 }
 
 
-
 #search-bar {
     margin: 0;
     padding: 0;
@@ -390,7 +389,8 @@ body {
     display: inline;
     
 }
-/* smaller screens */
+
+/* smaller screens  */
 
 @media only screen 
   and (max-device-width: 1366px)     
@@ -447,7 +447,7 @@ body {
             
         }
 }
-        
+     
 
 /* Tablet Landscape */
 
@@ -467,7 +467,7 @@ body {
         text-align: center;
       }
       #header {
-          height: 20px;
+          height: 70px;
           color: red;
           
       }
@@ -484,7 +484,7 @@ body {
       
       #top-img { 
       
-        height: 600px;
+        height: 300px;
         max-height: 600px;
         margin-top: 3%;
       
@@ -492,7 +492,8 @@ body {
       
     #fade p { 
       
-        font-size: 300%;
+        font-size: 100%;
+        color: red;
       }
       
       #search-bar {
@@ -536,7 +537,7 @@ body {
           font-size:  100%;
       }
 }
- /* Tablet Portrait */
+ /* Tablet Portrait 
 
 @media only screen 
   and (min-device-width: 768px) 
