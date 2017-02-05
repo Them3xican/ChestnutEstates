@@ -473,7 +473,6 @@ body {
       
       .head-nav {
         font-size: 100%;
-          color: red;
       }
     
       #top-img { 
@@ -486,8 +485,7 @@ body {
       
     #fade p { 
       
-        font-size: 450%;
-        color: red;
+        font-size: 400%
       }
       
       #search-bar {
