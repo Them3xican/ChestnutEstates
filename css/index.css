@@ -532,7 +532,7 @@ body {
             }
       
 }
- /* Tablet Portrait 
+ /* Tablet Portrait  */
 
 @media only screen 
   and (min-device-width: 768px) 
@@ -544,6 +544,7 @@ body {
         margin: 0 auto;
         padding: 0;
         width: 100%;
+           height: 100%;
         max-width: 1024px;
         min-width: 768px;
       }
