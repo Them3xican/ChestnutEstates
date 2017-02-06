@@ -62,7 +62,7 @@
                         
                         <select id="area">
                       <option value="0"  >Select Area</option>
-                      <option value="scumville">Scumville</option>
+                      <option value="BishopsWaltham">  Bishops Waltham</option>
                       <option value="chav">chav Centre</option>
                       <option value="perv">Perv city</option>
                     </select>
@@ -77,17 +77,17 @@
                     
                      <select id="beds">
                       <option value="0">Number of Beds</option>
-                      <option value="bed1">1</option>
-                      <option value="bed2">2</option>
-                      <option value="bed3">3</option>
-                      <option value="bed4">4+</option>
+                      <option value="1">1</option>
+                      <option value="2">2</option>
+                      <option value="3">3</option>
+                      <option value="4">4+</option>
                     </select>
                     
                      <select id="property">
                       <option value="0">Property Type</option>
                       <option value="flats">Flat</option>
                       <option value="house">House</option>
-                      <option value="bin">The Nearest Bin</option>
+                      <option value="semi">semi-detached</option>
                     </select>
                     
                     <input id="search-bttn"  type="submit" name="submit" value="Search"> 
@@ -113,10 +113,10 @@
                               echo '<div class="col-10" id="all-houses">
                                           <div class="col-12" id="house">
                                               <div class="col-6" id="pic">
-                                                  <img src="img/' . $row['picture_url'] . '" alt="" class="profile-pic">
+                                                  <img src="img/' . $row['house_img'] . '" alt="" class="profile-pic">
                                               </div>
                                               <div class="col-6" id="info">
-                                                  <p>' . $row['house_name'] . '<br>
+                                                  <p>' . $row['HouseName'] . '<br>
                                                 ' . $row['area'] . '</p>
 
                                                 <p>£' . $row['price'] . '</p>
@@ -127,10 +127,20 @@
                               
                           }
                       }
-                      $sql = 'select * from tblname'; 
+                     
                   
                                 ?>
-                      <div class="col-10" id="all-houses">
+                      
+                  </div>
+              </div>
+       </div>
+    </div>
+    </body>
+</html>
+
+<!--
+ $sql = 'select * from tblname'; 
+<div class="col-10" id="all-houses">
                       <div class="col-12" id="house">
                           <div class="col-6" id="pic">
                               <img src="img/Front-Door.jpg" alt="" class="profile-pic">
@@ -157,9 +167,3 @@
                           </div>
                       </div>
                       </div>
-                  </div>
-              </div>
-       </div>
-    </div>
-    </body>
-</html>

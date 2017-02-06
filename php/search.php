@@ -10,7 +10,7 @@ $beds = strip_tags($_POST["beds"]);
 
     $join = 0
     $check = 0
-    $sql = "SELECT * FROM table WHERE ";
+    $sql = "SELECT * FROM house_names WHERE ";
 
 
 function makeJoin($fjoin) 
